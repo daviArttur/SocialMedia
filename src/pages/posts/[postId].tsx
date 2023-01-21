@@ -96,10 +96,6 @@ export default function PostId(props: { photo: Post, comments: any[] }) {
   )
 }
 
-export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
-  getLayout?: (page: ReactElement) => ReactNode
-}
-
 PostId.getLayout = function getLayout(page: any) {
   return (
     <Layout>
