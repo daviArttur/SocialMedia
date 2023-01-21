@@ -1,7 +1,7 @@
 
 import { Post } from "@/domain/interfaces";
 import { getPhotos } from "@/domain/useCase/getPhotos";
-import { CSS } from "@/pages/styles";
+import CSS from "@/ui/styles/pages/styles";
 import { useEffect, useState } from "react"
 import { LoadingScreen } from "../../loadingScreen";
 import { PostCard } from "../card"

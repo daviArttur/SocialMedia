@@ -132,7 +132,7 @@ const form = styled.form`
   width: 100%;
 `
 
-export const CSS = {
+const CSS = {
   image,
   title,
   input,
@@ -147,3 +147,5 @@ export const CSS = {
     data: Container__Data
   }
 }
+
+export default CSS;

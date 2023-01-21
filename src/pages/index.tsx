@@ -5,7 +5,7 @@ import { PostCard } from "@/ui/components/post/card/"
 import { PostContainer } from "@/ui/components/post/container"
 import { NextPage } from "next"
 import { ReactElement, ReactNode, useEffect, useRef, useState } from "react"
-import { CSS } from "./styles"
+import CSS from "../ui/styles/pages/styles"
 
 export async function getStaticProps() {
   const response = await new getPhotos(1, 6).exec();

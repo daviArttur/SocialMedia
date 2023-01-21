@@ -28,8 +28,9 @@ const Wrapper = styled.div`
     grid-template-columns: 1fr 1fr;
   }
 `
-
-export const CSS = {
+const CSS = {
   mainContainer: Container__Main,
   Wrapper,
 }
+
+export default CSS;

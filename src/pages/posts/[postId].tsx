@@ -6,7 +6,7 @@ import axios from 'axios'
 import { NextPage } from 'next'
 import { useRouter } from 'next/router'
 import { ReactElement, ReactNode } from 'react'
-import { CSS } from './styles'
+import CSS from '../../ui/styles/pages/posts/styles'
 
 async function getPhoto(postId: string) {
   const data = await fetch(`http://localhost:3000/api/photo/${postId}`)
