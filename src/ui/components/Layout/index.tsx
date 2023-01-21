@@ -11,7 +11,7 @@ export default function Layout({ children }: Props) {
     <>
       <Header />
       <main style={{
-        margin: "6rem 0 5rem 0",
+        margin: "4rem 0 0 0",
         minHeight: "80vh",
         display: "flex",
         width: "100%"

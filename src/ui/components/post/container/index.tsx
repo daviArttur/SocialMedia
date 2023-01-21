@@ -29,7 +29,7 @@ export function PostContainer({ index, infinite }: Props) {
       setPosts(data)
     }
     loadPosts()
-  }, [infinite])
+  }, [infinite, index])
 
   if (loading) return <LoadingScreen/>
 

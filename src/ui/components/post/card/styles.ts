@@ -6,6 +6,7 @@ const image = styled.img`
     height: 100%;
     width: 100%;
     max-height: 278px;
+    cursor: pointer;
 
     @media only screen and (min-width: ${ p => p.theme.media.mobile}) {
         &:nth-of-type(6n) {
