@@ -34,6 +34,7 @@ export default class MyDocument extends Document {
         <Html lang="pt-br">
         <meta name="description" content="Dogs rede social" />
         <meta name="author" content="Davi Artur"/>
+        <title>Dogs | Home</title>
         <Head/>
         <body>
           <Main />
