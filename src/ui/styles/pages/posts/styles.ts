@@ -1,3 +1,4 @@
+import { Title } from "@/ui/components/title";
 import { theme } from "@/ui/styles/theme";
 import styled from "styled-components"
 
@@ -47,22 +48,7 @@ const views = styled.span`
   color: ${p => p.theme.colors.gray[400]};
 `;
 
-const title = styled.h1`
-  font-size: 48px;
-  position: relative;
-
-  &::before {
-    content: "";
-    position: absolute;
-    background-color: ${theme.colors.yellow[500]};
-    bottom: 5px;
-    left: -0.1875rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 2px;
-    z-index: -1;
-  }
-`;
+const title = Title;
 
 const Container__Title__View = styled.div`
   display: flex;

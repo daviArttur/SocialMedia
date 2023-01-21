@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const Container__Main = styled.div`
-  width: 100;
+  width: 100%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
@@ -10,6 +10,7 @@ const Container__Main = styled.div`
   justify-self: center;
   min-height: 101vh;
   gap: 1rem;
+  margin: 2rem 0;
 `
 
 const Wrapper = styled.div`
